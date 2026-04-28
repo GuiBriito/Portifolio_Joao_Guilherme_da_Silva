@@ -66,7 +66,7 @@ Git/GitHub.
 | **Projeto para armazenagem de dados** | Projeto de Programção em C focado na armazenagem de dados sobre um "estoque" com a possibilidade de exportação em CSV  | [Ver Projeto]() |
 | **Projeto Regra do Trapézio** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra do Trapézio | [Ver Projeto]() |
 | **Projeto Regra de Simpson** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra de Simpson | [Ver Projeto]() |
-| **Projeto Regra do Trapézio** | Projeto de Programação em Python para gerar um sistema de cálculo de Investivendo com juros composto utilizando a Regra de Simpson e do Trapézio como alternativas para realizar a previsão de retorno| [Ver Projeto]() |
+| **Sistema de cálculo de Investivendo com juros composto** | Projeto de Programação em Python para gerar um sistema de cálculo de Investivendo com juros composto utilizando a Regra de Simpson e do Trapézio como alternativas para realizar a previsão de retorno| [Ver Projeto]() |
 
 ---
  
