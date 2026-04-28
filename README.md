@@ -51,8 +51,8 @@ Git/GitHub.
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Engenharia Reversa** | Projeto de Engenharia Reversa utilizando o site Qr Code Styling como base através do Google IA.Studio  | [Ver Projeto](https://ai.studio/apps/6d561a6d-fdef-4ae6-9cdf-038560208d1f) |
-| **QR Cold** | Projeto de melhoria e desenvolvimento do app utilizado no projeto de Engenharia Reversa. | [Ver Projeto](https://ai.studio/apps/9ad6383b-9e84-4b85-82c5-edbfbeb5ae8e) |
+| **Engenharia Reversa** | Projeto de Engenharia Reversa utilizando o site Qr Code Styling como base através do Google IA.Studio  | [Ver Projeto]([https://ai.studio/apps/6d561a6d-fdef-4ae6-9cdf-038560208d1f](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Clone_QR_Styling)) |
+| **QR Cold** | Projeto de melhoria e desenvolvimento do app utilizado no projeto de Engenharia Reversa. | [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Qr_Cold) |
 
 #### 👨‍🎨 Desenvolvimento Wed
 | Projeto | Descrição | Link |
@@ -63,10 +63,10 @@ Git/GitHub.
 #### 🧮 Programação de computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Projeto para armazenagem de dados** | Projeto de Programção em C focado na armazenagem de dados sobre um "estoque" com a possibilidade de exportação em CSV  | [Ver Projeto]() |
-| **Projeto Regra do Trapézio** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra do Trapézio | [Ver Projeto]() |
-| **Projeto Regra de Simpson** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra de Simpson | [Ver Projeto]() |
-| **Sistema de cálculo de Investimento com juros compostos** | Projeto de Programação em Python para gerar um sistema de cálculo de Investimento com juros compostos utilizando a Regra de Simpson e do Trapézio como alternativas para realizar a previsão de retorno| [Ver Projeto]() |
+| **Projeto para armazenagem de dados** | Projeto de Programção em C focado na armazenagem de dados sobre um "estoque" com a possibilidade de exportação em CSV  | [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Estoque_em_C) |
+| **Projeto Regra do Trapézio** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra do Trapézio | [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Regra_do_Trapezio) |
+| **Projeto Regra de Simpson** | Projeto de Programação em Python para gerar um sistema de cálculo de integral através da Regra de Simpson | [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Regra_de_Simpson) |
+| **Sistema de cálculo de Investimento com juros compostos** | Projeto de Programação em Python para gerar um sistema de cálculo de Investimento com juros compostos utilizando a Regra de Simpson e do Trapézio como alternativas para realizar a previsão de retorno| [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Sistema_de_Calculo_de_Investumento) |
 
 ---
  
