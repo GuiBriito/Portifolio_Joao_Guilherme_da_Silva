@@ -30,4 +30,4 @@ O desenvolvimento deste script SQL permitiu consolidar conhecimentos críticos s
    ```bash
    psql -U seu_usuario -d seu_banco -f script_financeiro.sql
 
-   [Voltar ao início](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva)
+[Voltar ao início](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva)
