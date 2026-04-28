@@ -3,7 +3,7 @@
 ---
  
 ### 📫 Contato & Redes Sociais
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/joão-guilherme-da-silva-brito-b5433a385)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https:www.linkedin.com/in/joão-guilherme-da-silva-brito-b5433a385)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jgui235689@gmail.com)
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://docs.google.com/document/d/1pacFdbqW3As9PRxqHuPe5jVxIXeJ23uyNp-QtL7zgFI/edit?usp=sharing)
  
@@ -22,6 +22,14 @@ Git/GitHub.
  
 #### 💻 Linguagens e Tecnologias
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Modelagem de Dados](https://img.shields.io/badge/Modelagem%20de%20Dados-4B0082?style=for-the-badge&logo=databricks&logoColor=white)
+![BPMN](https://img.shields.io/badge/BPMN-Business%20Process-00aae4?style=for-the-badge)
+![Bizagi](https://img.shields.io/badge/Bizagi%20Modeler-00529B?style=for-the-badge&logo=bizagi&logoColor=white)
  
 #### 🗄️ Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -38,12 +46,15 @@ Git/GitHub.
 #### 🗃️ Modelagem de Banco de Dados
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Sistema de Gestão Escolar** | Modelagem ER e Scripts SQL para uma instituição de ensino. | [Ver Projeto](./projeto-banco-dados/) |
+| **Geração do Modelo Lógico (MySql WorkBench/BRModelo)** | Criação de um Modelo Lógico de Tabelas, com a aplicação de regras de integridade e as melhores práticas, incluindo o tratamento de dados sensíveis da LGPD. | [Ver Projeto](https://docs.google.com/document/d/1QLp6PwxpgmtZu7ERJTR3LQSGjHeRgVYl0GdH7DEOUXI/edit?usp=sharing) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Predição de Churn** | Algoritmo de classificação para prever saída de clientes. | [Ver Projeto](./projeto-ia-churn/) |
+| **Engenharia Reversa** | Projeto de Engenharia Reversa utilizando o site Qr Code Styling como base através do Google IA.Studio  | [Ver Projeto](https://ai.studio/apps/6d561a6d-fdef-4ae6-9cdf-038560208d1f) |
+| **QR Cold** | Projeto de melhoria e desenvolvimento do app utilizado no projeto de Engenharia Reversa. | [Ver Projeto](https://ai.studio/apps/9ad6383b-9e84-4b85-82c5-edbfbeb5ae8e) |
+
+
  
 ---
  
