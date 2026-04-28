@@ -51,7 +51,7 @@ Git/GitHub.
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Engenharia Reversa** | Projeto de Engenharia Reversa utilizando o site Qr Code Styling como base através do Google IA.Studio  | [Ver Projeto]([https://ai.studio/apps/6d561a6d-fdef-4ae6-9cdf-038560208d1f](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Clone_QR_Styling)) |
+| **Engenharia Reversa** | Projeto de Engenharia Reversa utilizando o site Qr Code Styling como base através do Google IA.Studio  | [Ver Projeto] ([https://ai.studio/apps/6d561a6d-fdef-4ae6-9cdf-038560208d1f](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Clone_QR_Styling)) |
 | **QR Cold** | Projeto de melhoria e desenvolvimento do app utilizado no projeto de Engenharia Reversa. | [Ver Projeto](https://github.com/GuiBriito/Portifolio_Joao_Guilherme_da_Silva/tree/master/Projeto_Qr_Cold) |
 
 #### 👨‍🎨 Desenvolvimento Wed
