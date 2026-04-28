@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile information",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "QRCodeHistory": {
+      "title": "QR Code History",
+      "description": "History of generated QR codes and their settings",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "name": { "type": "string" },
+        "options": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "options", "createdAt"]
+    },
+    "Preset": {
+      "title": "Preset",
+      "description": "User saved design preset",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "name": { "type": "string" },
+        "options": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "name", "options", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile documents"
+    },
+    "/qr_history/{historyId}": {
+      "schema": "QRCodeHistory",
+      "description": "User's QR code generation history"
+    },
+    "/presets/{presetId}": {
+      "schema": "Preset",
+      "description": "User's saved design presets"
+    }
+  }
+}
