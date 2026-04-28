@@ -5,9 +5,6 @@ Este sistema é uma solução completa de análise numérica aplicada ao mercado
  
 Desenvolvido como o ápice da disciplina de **Cálculo Numérico**, o software automatiza a resolução de integrais definidas para funções de juros variáveis. Diferente das versões anteriores, este sistema centraliza a lógica de captura de dados e oferece um menu interativo, tornando-se uma ferramenta versátil para simular o crescimento patrimonial baseado em taxas que evoluem linearmente ao longo do tempo.
  
-![Figura 1: Menu principal do sistema integrado](https://github.com/GuiBriito/Qr_Cold/raw/main/assets/integrated_system_preview.png)
-*Figura 1: Interface de comando permitindo a escolha entre diferentes métodos numéricos.*
- 
 ## 🚀 Tecnologias Utilizadas
 * **Linguagem:** Python 3.x
 * **Bibliotecas:** `math` (cálculos logarítmicos e exponenciais)
@@ -18,9 +15,6 @@ A criação deste sistema unificado consolidou conceitos importantes de arquitet
 * **Modularização e Reuso:** Estruturei o código utilizando funções específicas para entrada de dados (`obter_dados`), evitando repetição de código e facilitando a manutenção.
 * **Flexibilidade Algorítmica:** O sistema permite alternar entre uma aproximação linear (Trapézio) e uma parabólica (Simpson), demonstrando como diferentes métodos numéricos afetam a precisão do montante final.
 * **Tratamento de Fluxo:** Implementei um sistema de navegação em loop que permite ao usuário realizar múltiplos cálculos sem a necessidade de reiniciar o programa.
- 
-![Gráfico Comparativo de Métodos](https://github.com/GuiBriito/Qr_Cold/raw/main/assets/comparison_metrics.png)
-*Figura 2: Análise da convergência dos resultados entre os métodos integrados.*
  
 ## 🔧 Como Executar
 1. Certifique-se de ter o **Python 3** instalado.
