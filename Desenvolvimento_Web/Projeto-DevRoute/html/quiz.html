@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+                <a href="index.html">
+                    <h1 class="logo">Devroute</h1>
+                </a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <input type="text" placeholder="Pesquisar" />
+                    </li>
+                    <li class="li-nav">
+                        <a href="index.html">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="quiz.html">
+                            <h4>Quiz</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="cursos-trilhas.html">
+                            <h4>Cursos / Trilhas</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="areas-em-alta.html">
+                            <h4>🔥 Áreas em alta!</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav perfil-dropdown-hover">
+                        <a href="perfil.html" class="perfil-link">
+                            <h4>Perfil</h4>
+                        </a>
+                        <div class="dropdown-menu-hover">
+                            <a href="login.html">Login</a>
+                            <a href="cadastro.html">Cadastro</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="main-quiz">
+
+        <div class="questionario">
+            <h1 class="titulo">Ainda não sabe a área que irá seguir?</h1>
+            <p class="subtitulo">
+                Responda as seguintes perguntas e indicaremos qual área
+                mais combina com você!
+            </p>
+        </div>
+
+
+        <form action="recomendacoes.html" class="todas-perguntas">
+             <h3 class="subtitulo-questoes">Questões:</h3>
+            <section class="caixa-perguntas">
+                <label class="perguntas" for="ques1">1-Você prefere passar o tempo livre
+                    resolvendo...</label>
+                    
+                <label class="respostas" >
+                    <input type="radio" name="ques1" value="A" />A. Jogos de lógica,
+                    quebra-cabeças ou problemas matemáticos.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques1" value="B"  />B. Projetos artísticos, de
+                    disgn ou fotografia.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques1" value="C"  />C. Tarefas que exigem muita
+                    organização e planejamento.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques1" value="D"  />D. Buscando informações e
+                    curiosidades sobre o mundo.<br />
+                </label>
+            </section>
+
+       
+
+            <section class="caixa-perguntas">
+                <label class="perguntas" for="ques2">2-Quando você usa um site/app, o que mais te
+                    incomoda?</label>
+                    
+                <label class="respostas">
+                    <input type="radio" name="ques2" value="A"  />A. Quando ele é feio ou
+                    difícil de usar.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques2" value="B"  />B. Quando ele fica lento ou
+                    trava o tempo todo.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques2" value="C"  />C. Quando ele não faz o que
+                    você espera dele (erros de funcionalidade).<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques2" value="D"  />D. Quando a informação que
+                    você precisa não está clara ou organizada.<br />
+                </label>
+            </section>
+
+
+
+            <section class="caixa-perguntas">
+                <label class="perguntas" for="ques3">3-Você está no meio de um projeto e algo dá errado.
+                    Sua reação é:</label>
+                    
+                <label class="respostas">
+                    <input type="radio" name="ques3" value="A"  />A. Parar tudo e tentar
+                    entender o motivo do erro, linha por linha.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques3" value="B"  />B. Organizar o time e
+                    reestaurar o plano para contornar o problema.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques3" value="C"  />C. Verificar se a estrutura
+                    (internet,equipamentos) está funcionando.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques3" value="D"  />D. Desenhar ou reescrever a
+                    parte que deu erro para ver se fica melhor.<br />
+                </label>
+            </section>
+
+
+
+            <section class="caixa-perguntas">
+                <label class="perguntas" for="ques4">4-Qual é o seu maior interesse em relação à
+                    tecnologia?</label>
+                    
+                <label class="respostas">
+                    <input type="radio" name="ques4" value="A"  />A. Saber com ela funciona por
+                    dentro (o código, o algoritmo).<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques4" value="B"  />B. Como ela pode ser usada
+                    para prever o futuro (tendências, estatísticas).<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques4" value="C"  />C. A maneira como ela organiza
+                    e proteje os dados e informações.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques4" value="D"  />D. Como ela pode ser usada
+                    para criar produtos inovadores e úteis para
+                    pessoas.<br />
+                </label>
+            </section>
+
+            
+
+            <section class="caixa-perguntas">
+                <label class="perguntas" for="ques5">5-Se você pudesse construir algo digital, o que
+                    seria?</label>
+                <label class="respostas">
+                    <input type="radio" name="ques5" value="A"  />A. Um painel de controle fácil
+                    de usar para monitorar algo complexo.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques5" value="B" />B. Uma ferramenta que
+                    automatiza tarefas e resolve problemas
+                    repetitivos.<br />
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques5" value="C"  />C. AUm sistema que armazena,
+                    organiza e protege milhões de dados.
+                </label>
+                <label class="respostas">
+                    <input type="radio" name="ques5" value="D"/>D. Um plano detalhado para
+                    lançar um novo produto digital no mercado.
+                </label>
+            </section>
+            <div class="direto-area">
+                <button type="submit" class="botao-quiz">Concluir !</button>
+                <h4>Já está decidído em qual área irá atuar?</h4>
+                    <a href="cursos-trilhas.html">Clique aqui para selecionar sua Trilha ou Curso!</a>
+            </div>
+        </form>
+    </main>
+
+        <footer class="rodape">
+        <section class="rodape-coluna">
+            <h1>Devroute</h1>
+            <ul class="icons-redes">
+                <li>
+                    <a href="#"><img src="img/instagram.png" alt="Logo da rede social Instagram" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/linkedin.png" alt="Logo da rede social LinkedIn" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/github.png" alt="Logo da rede social GitHub" width="50px" /></a>
+                </li>
+            </ul>
+            <p>
+                &copy; 2025 <strong>OnlyFronts</strong> - Todos os direitos
+                reservados.
+            </p>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Sobre Nós</h4>
+            <ul>
+                <li><a href="contato.html">Quem Somos</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="contato.html">Trabalhe Conosco</a></li>
+            </ul>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Ajuda e Suporte</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script src="js/mobile-nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Planos de Estudo - Pagamento</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+                <a href="index.html">
+                    <h1 class="logo">Devroute</h1>
+                </a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <input type="text" placeholder="Pesquisar" />
+                    </li>
+                    <li class="li-nav">
+                        <a href="index.html">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="quiz.html">
+                            <h4>Quiz</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="cursos-trilhas.html">
+                            <h4>Cursos / Trilhas</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="areas-em-alta.html">
+                            <h4>🔥 Áreas em alta!</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav perfil-dropdown-hover">
+                        <a href="perfil.html" class="perfil-link">
+                            <h4>Perfil</h4>
+                        </a>
+                        <div class="dropdown-menu-hover">
+                            <a href="login.html">Login</a>
+                            <a href="cadastro.html">Cadastro</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="planos">
+        <h1>Nossos Planos</h1>
+        <section class="payment-section">
+                <div class="payment-menu">
+                    <article class="payment-card-basic unselected" id="basic-plan">
+                        <h2>Devrouter Basic</h2>
+                        <p>Perfeito para começar</p>
+                        <p class="price-basic">R$49,90</p>
+                        <p>Pagamento único</p>
+                        <ul class="benefits">
+                            <li>Acesso a cursos individuais</li>
+                            <li>Material complementar</li>
+                            <li>Certificado de conclusão</li>
+                            <li>Suporte via email</li>
+                        </ul>
+                            <button class="btn-basic">Selecionar</button>
+                    </article>
+                    <article class="payment-card-premium unselected" id="premium-plan">
+                        <h2>Devrouter Pro</h2>
+                        <p>Acesso ilimitado a tudo</p>
+                        <p class="price-premium">R$149,90</p>
+                        <p>Por mês</p>
+                        <ul class="benefits">
+                            <li>Acesso a todos os +200 cursos</li>
+                            <li>Novos cursos toda semana</li>
+                            <li>Certificados ilimitados</li>
+                            <li>Mentoria em grupo</li>
+                            <li>Comunidade exclusiva</li>
+                            <li>Suporte prioritário 24/7</li>
+                        </ul>
+                            <button class="btn-premium">Selecionar</button>
+                    </article>
+                </div>
+            </section>
+            <section class="secao">
+                <form id="form-pagamento">
+                <h3>Forma de Pagamento</h3>
+                <p>Escolha a forma de pagamento</p>
+                <label class="opcao">
+                    <input type="radio" id="cartao-credito" name="forma-pagamento" value="cartao-credito" required>
+                    Cartão de Crédito
+                </label>
+                <label class="opcao">
+                    <input type="radio" id="cartao-debito" name="forma-pagamento" value="cartao-debito" required> Cartão
+                    de Débito
+                </label>
+                <label class="opcao">
+                    <input type="radio" id="pix" name="forma-pagamento" value="pix" required> PIX
+                </label>
+                <label class="opcao">
+                    <input type="radio" id="boleto" name="forma-pagamento" value="boleto" required> Boleto Bancário
+                </label>
+            </section>
+
+
+            <section class="secao">
+                <h3>Dados do Cartão</h3>
+                <p>Preencha se escolheu uma das opções "cartão"</p>
+                <div>
+                    <label for="numero-cartao">Número do Cartão:</label>
+                    <input type="text" id="numero-cartao" name="numero-cartao" maxlength="16" class="campo">
+
+                    <label for="nome-cartao">Nome no Cartão:</label>
+                    <input type="text" id="nome-cartao" name="nome-cartao" maxlength="40" class="campo">
+
+
+                    <label for="cvv">Código de Segurança(CVV):</label>
+                    <input type="text" id="cvv" name="cvv" maxlength="3" class="campo">
+
+
+                    <label for="validade-mes">Mês de Validade:</label>
+                    <select id="validade-mes" name="validade-mes" class="campo">
+                        <option value="">Mês</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="validade-ano">Ano de Validade:</label>
+                    <select id="validade-ano" name="validade-ano" class="campo">
+                        <option value="">Ano</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        <option value="32">32</option>
+                        <option value="33">33</option>
+                        <option value="34">34</option>
+                        <option value="35">35</option>
+                    </select>
+
+                </div>
+            </section>
+
+            <section class="secao">
+                <h3>Confirmação de Pagamento</h3>
+                <p>Termos e Condições</p>
+                <label class="opcao">
+                    <input type="checkbox" id="aceite-termos" name="aceite-termos" required> Li e aceito os <a
+                        href="/termos-uso">Termos de Uso</a> e a <a href="/politica-privacidade">Política de
+                        Privacidade</a>
+                </label>
+                <button type="submit" class="btn-enviar">Finalizar</button>
+                </form>
+            </section>
+    </main>
+    <footer class="rodape">
+        <section class="rodape-coluna">
+            <h1>Devroute</h1>
+            <ul class="icons-redes">
+                <li>
+                    <a href="#"><img src="img/instagram.png" alt="Logo da rede social Instagram" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/linkedin.png" alt="Logo da rede social LinkedIn" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/github.png" alt="Logo da rede social GitHub" width="50px" /></a>
+                </li>
+            </ul>
+            <p>
+                &copy; 2025 <strong>OnlyFronts</strong> - Todos os direitos
+                reservados.
+            </p>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Sobre Nós</h4>
+            <ul>
+                <li><a href="contato.html">Quem Somos</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="contato.html">Trabalhe Conosco</a></li>
+            </ul>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Ajuda e Suporte</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/payment.js"></script>
+
+</body>
+
+</html>

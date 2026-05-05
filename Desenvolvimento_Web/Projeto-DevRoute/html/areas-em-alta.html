@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <a href="index.html">
+                    <h1 class="logo">Devroute</h1>
+                </a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <input type="text" placeholder="Pesquisar" />
+                    </li>
+                    <li class="li-nav">
+                        <a href="index.html">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="quiz.html">
+                            <h4>Quiz</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="cursos-trilhas.html">
+                            <h4>Cursos / Trilhas</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="areas-em-alta.html">
+                            <h4>🔥 Áreas em alta!</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav perfil-dropdown-hover">
+                        <a href="perfil.html" class="perfil-link">
+                            <h4>Perfil</h4>
+                        </a>
+                        <div class="dropdown-menu-hover">
+                            <a href="login.html">Login</a>
+                            <a href="cadastro.html">Cadastro</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="metric-module">
+            <section class="api-info">
+                <h2>Principais áreas com demanda</h2>
+                <!-- essa data viria da api ficticia do linkedin -->
+                <br />
+                <p>
+                    Fonte: LinkedIn API | Última Consulta: 30/10/2025 14:32:44
+                    UTC | Dados atualizados em tempo real
+                </p>
+            </section>
+            <section class="api-listing">
+                <!-- areas aleatorias pra exemplo -->
+                <div class="api-card">
+                    <h3>Inteligência Artificial e Machine Learning</h3>
+                    <h6 class="trending-tag">Em Alta</h6>
+                    <h6 class="level-tag">Pleno/Senior</h6>
+                    <p>
+                        Modelagem preditiva, aprendizado profundo e aplicações
+                        em computer vision/NLP. Alta demanda em empresas que
+                        trabalham com produtos baseados em dados.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">2.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$12.500</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">35%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+                <div class="api-card">
+                    <h3>Cloud Computing e Infraestrutura</h3>
+                    <h6 class="trending-tag">Em Alta</h6>
+                    <h6 class="level-tag">Pleno/Senior</h6>
+                    <p>
+                        Arquitetura em nuvem (AWS/GCP/Azure), containers e infra
+                        como código. Muito procurado para escalar produtos e
+                        automatizar deploys.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">2.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$11.200</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">28%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+
+                <div class="api-card">
+                    <h3>Segurança da Informação (Cybersecurity)</h3>
+                    <h6 class="trending-tag">Em Alta</h6>
+                    <h6 class="level-tag">Senior</h6>
+                    <p>
+                        Pentest, Red Team, resposta a incidentes e engenharia
+                        reversa. A demanda por profissionais que garantam a
+                        segurança de sistemas segue alta.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">1.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$13.500</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">32%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+
+                <div class="api-card">
+                    <h3>Engenharia de Dados</h3>
+                    <h6 class="trending-tag">Em Alta</h6>
+                    <h6 class="level-tag">Pleno/Senior</h6>
+                    <p>
+                        ETL/ELT, pipelines em streaming e data warehouses.
+                        Essencial para times que consomem informações em grande
+                        escala.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">1.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$12.000</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">30%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+                <div class="api-card">
+                    <h3>Desenvolvimento Web - Frontend</h3>
+                    <h6 class="level-tag">Junior/Pleno</h6>
+                    <p>
+                        Interfaces ricas com React, frameworks modernos e
+                        performance. Alto volume de vagas em produtos digitais e
+                        startups.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">3.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$9.800</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">22%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+                <div class="api-card">
+                    <h3>Desenvolvimento Backend & Microservicess</h3>
+                    <h6 class="level-tag">Pleno/Senior</h6>
+                    <p>
+                        APIs escaláveis, microserviços, bancos de dados e
+                        patterns de arquitetura. Fundamental em times de produto
+                        e infra.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">3.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$10.500</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">25%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+                <div class="api-card">
+                    <h3>Mobile (Flutter / React Native / iOS / Android)</h3>
+                    <h6 class="level-tag">Pleno/Senior</h6>
+                    <p>
+                        Desenvolvimento multiplataforma e performance nativa.
+                        Apps móveis continuam com demanda consistente em muitos
+                        mercados.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">2.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$10.200</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">20%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+                <div class="api-card">
+                    <h3>IoT e Sistemas Embarcados</h3>
+                    <h6 class="level-tag">Senior</h6>
+                    <p>
+                        Sistemas embarcados, firmware e integração com hardware.
+                        Demanda em indústrias, automação e produtos conectados.
+                    </p>
+                    <ul class="metrics-grid">
+                        <li class="metric">
+                            <span class="metric-value">1.000</span>
+                            <span class="metric-label">Vagas abertas</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">R$11.000</span>
+                            <span class="metric-label">Salário médio</span>
+                        </li>
+                        <li class="metric">
+                            <span class="metric-value">18%</span>
+                            <span class="metric-label">Crescimento anual</span>
+                        </li>
+                    </ul>
+                    <section class="api-options">
+                        <button class="api-button" href="">
+                            Trilhas relacionadas
+                        </button>
+                        <button class="api-button" href="">
+                            Mais informações
+                        </button>
+                    </section>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <section class="rodape-coluna">
+                <h1>Devroute</h1>
+                <ul class="icons-redes">
+                    <li>
+                        <a href="#"
+                            ><img
+                                src="img/instagram.png"
+                                alt="Logo da rede social Instagram"
+                                width="45px"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><img
+                                src="img/linkedin.png"
+                                alt="Logo da rede social LinkedIn"
+                                width="45px"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            ><img
+                                src="img/github.png"
+                                alt="Logo da rede social GitHub"
+                                width="50px"
+                        /></a>
+                    </li>
+                </ul>
+                <p>
+                    &copy; 2025 <strong>OnlyFronts</strong> - Todos os direitos
+                    reservados.
+                </p>
+            </section>
+            <section class="rodape-coluna">
+                <h4>Sobre Nós</h4>
+                <ul>
+                    <li><a href="contato.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                    <li><a href="contato.html">Trabalhe Conosco</a></li>
+                </ul>
+            </section>
+            <section class="rodape-coluna">
+                <h4>Ajuda e Suporte</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </section>
+        </footer>
+        <script src="js/mobile-nav.js"></script>
+    </body>
+</html>

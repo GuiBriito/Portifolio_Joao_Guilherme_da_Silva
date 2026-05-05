@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Meu perfil</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+                <a href="index.html">
+                    <h1 class="logo">Devroute</h1>
+                </a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <input type="text" placeholder="Pesquisar" />
+                    </li>
+                    <li class="li-nav">
+                        <a href="index.html">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="quiz.html">
+                            <h4>Quiz</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="cursos-trilhas.html">
+                            <h4>Cursos / Trilhas</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="areas-em-alta.html">
+                            <h4>🔥 Áreas em alta!</h4>
+                        </a>
+                    </li>
+                    <li class="li-nav perfil-dropdown-hover">
+                        <a href="perfil.html" class="perfil-link">
+                            <h4>Perfil</h4>
+                        </a>
+                        <div class="dropdown-menu-hover">
+                            <a href="login.html">Login</a>
+                            <a href="cadastro.html">Cadastro</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="main-perfil">
+        <section id="dados-pessoais">
+            <section id="foto-perfil">
+                <img src="img/perfil.png" alt="Sua foto de perfil" width="200px" />
+                <button>Editar foto de perfil</button>
+            </section>
+            <section id="dados-form">
+                <h2>Informações pessoais</h2>
+                <form action="dados-form" >
+                    <label for="nome" class="form-dados"><b>Nome</b>
+                    <input type="text" placeholder="Digite seu nome" value="Arthur" />
+                    </label>
+                    <label for="sobrenome" class="form-dados"><b>Sobrenome</b>
+                    <input type="text" placeholder="Digite seu sobrenome" value="Rodrigues Dantas" />
+                    </label>
+                    <label for="email" class="form-dados"><b>E-mail</b>
+                    <input type="email" placeholder="Digite seu e-mail" value="arthur@email" />
+                    </label class="form-dados">
+                    <input type="submit" value="Editar dados pessoais" class="editar-dados"/>
+                </form>
+            </section>
+            <section id="redes-sociais">
+                <h3>Redes sociais</h3>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/instagram.png" alt="Logo da rede social Instagram" width="35px" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/linkedin.png" alt="Logo da rede social LinkedIn" width="35px" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/github.png" alt="Logo da rede social GitHub" width="35px" /></a>
+                    </li>
+                </ul>
+            </section>
+            <section id="meus-cursos">
+                <h2>Meus Cursos / Trilhas</h2>
+                <article class="curso">
+                    <h3>Trilha de Back-end</h3>
+                    <progress value="45" max="100"></progress>
+                    <p>Progresso: 45%</p>
+                    <button>Continuar Trilha</button>
+                </article>
+                <article class="curso">
+                    <h3>Curso de JavaScript</h3>
+                    <progress value="85" max="100"></progress>
+                    <p>Progresso: 85%</p>
+                    <button>Continuar Curso</button>
+                </article>
+            </section>
+        </section>
+    </main>
+        <footer class="rodape">
+        <section class="rodape-coluna">
+            <h1>Devroute</h1>
+            <ul class="icons-redes">
+                <li>
+                    <a href="#"><img src="img/instagram.png" alt="Logo da rede social Instagram" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/linkedin.png" alt="Logo da rede social LinkedIn" width="45px" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/github.png" alt="Logo da rede social GitHub" width="50px" /></a>
+                </li>
+            </ul>
+            <p>
+                &copy; 2025 <strong>OnlyFronts</strong> - Todos os direitos
+                reservados.
+            </p>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Sobre Nós</h4>
+            <ul>
+                <li><a href="contato.html">Quem Somos</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="contato.html">Trabalhe Conosco</a></li>
+            </ul>
+        </section>
+        <section class="rodape-coluna">
+            <h4>Ajuda e Suporte</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/mobile-nav.js"></script>
+</body>
+
+</html>
